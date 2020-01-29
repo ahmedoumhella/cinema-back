@@ -1,6 +1,5 @@
 package org.sid.cinema.entities;
 
-import java.util.Collection;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -22,14 +21,11 @@ public class Ticket {
 	private Long id;
 	private String nameClient ;
 	private double prix;
-	
-	@Column(unique=true)
-	private int codePayement;
+	@Column(unique=true, nullable = true)
+	private Integer codePayement;
 	private boolean reserve;
-	
 	@ManyToOne
 	private Place place;
-	
 	@ManyToOne
 	private Projection projection ;
 }
