@@ -13,15 +13,17 @@ Projet JEE : Gestion des Cinémas(La partie backend)
 - L'application se compose de 2 Parties : La partie backend et la partie Frontend.
 
 -Les exigences fonctionnelles de l'application sont :
-      -Gestion des Clnémas (Consultations, Saisle, Ajout, Edition, Mise à jour et suppression) 
-      -Gestion des Salles et des Places 
-      - Gestion Films 
-      -Gestion Projection 
-      -Gestion des ventes des Tickets 
+-Gestion des Clnémas (Consultations, Saisie, Ajout, Edition, Mise à jour et suppression) 
+-Gestion des Salles et des Places 
+- Gestion Films 
+-Gestion Projection 
+-Gestion des ventes des Tickets 
+
 - La partie backend est basée sur Spring et se compose des couches DAO, Service et Web. 
-      -La couche DAO est basée sur Spring Data, JPA, Hibernate 
-      -La couche Métier est définie par une interface et une implémentation quelques spécifications fonctionnelles
-      qui nécessite des calculs ou des traitements particullers
-      -La couche Web est basée sur des API Restful basée sur Spring Data Rest ou un RestController 
+-La couche DAO est basée sur Spring Data, JPA, Hibernate 
+-La couche Métier est définie par une interface et une implémentation quelques spécifications fonctionnelles
+qui nécessite des calculs ou des traitements particullers
+-La couche Web est basée sur des API Restful basée sur Spring Data Rest ou un RestController 
+
 - La partie Frontend est basée sur le Framework Angular.
 - La sécurité est basée sur Spring Security et Json Web Token
