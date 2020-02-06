@@ -149,7 +149,7 @@ Stream.of("Histoira","Drama","Action").forEach(c->{
     	 Film film =new Film() ;
     	 film.setTitre(f);
     	 film.setDuree(durees[new Random().nextInt(durees.length)]);
-    	 film.setPhoto(f);
+    	 film.setPhoto(f+".jfif");
     	 film.setCategorie(categories.get(new Random().nextInt(categories.size())));
     	 filmRepository.save(film);
      });	
